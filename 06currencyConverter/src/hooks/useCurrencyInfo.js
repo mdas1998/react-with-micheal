@@ -114,6 +114,7 @@ function useCurrencyInfo(currency) {
       chf: 0.8098765,
       cny: 4.5678901,
       inr: 59.8765432,
+      usd: 0.012,
     },
   };
 
