@@ -2,7 +2,7 @@
 
 function useCurrencyInfo(currency) {
   // const [data, setData] = useState({})
-  let currencyData = {
+  const currencyData = {
     date: '2023-03-12',
     usd: {
       inr: 80.6765456,
@@ -26,6 +26,7 @@ function useCurrencyInfo(currency) {
       chf: 1.0987654,
       cny: 7.8901234,
       sgd: 1.3456789,
+      eur: 1,
     },
     gbp: {
       usd: 1.3078965,
@@ -37,6 +38,7 @@ function useCurrencyInfo(currency) {
       chf: 1.2109876,
       cny: 8.9012345,
       sgd: 1.5678901,
+      gbp: 1,
     },
     jpy: {
       usd: 0.0091123,
@@ -48,6 +50,7 @@ function useCurrencyInfo(currency) {
       chf: 0.0098765,
       cny: 0.0678901,
       sgd: 0.0123456,
+      jpy: 1,
     },
     aud: {
       usd: 0.8098765,
@@ -59,6 +62,7 @@ function useCurrencyInfo(currency) {
       chf: 0.654321,
       cny: 4.5678901,
       sgd: 1.1234567,
+      aud: 1,
     },
     cad: {
       usd: 0.7432109,
@@ -70,6 +74,7 @@ function useCurrencyInfo(currency) {
       chf: 0.654321,
       cny: 4.5678901,
       sgd: 0.8901234,
+      cad: 1,
     },
     chf: {
       usd: 1.0123456,
@@ -81,6 +86,7 @@ function useCurrencyInfo(currency) {
       inr: 87.654321,
       cny: 6.7890123,
       sgd: 1.2345678,
+      chf: 1,
     },
     cny: {
       usd: 0.1478901,
@@ -92,6 +98,7 @@ function useCurrencyInfo(currency) {
       chf: 0.1478901,
       inr: 12.3456789,
       sgd: 0.2345678,
+      cny: 1,
     },
     sgd: {
       usd: 0.8098765,
@@ -103,20 +110,22 @@ function useCurrencyInfo(currency) {
       chf: 0.8098765,
       cny: 4.5678901,
       inr: 59.8765432,
+      sgd: 1,
     },
     inr: {
-      sgd: 0.2345678,
-      eur: 0.7434567,
-      gbp: 0.6378901,
-      jpy: 81.2345678,
-      aud: 0.8912345,
-      cad: 0.9123456,
-      chf: 0.8098765,
-      cny: 4.5678901,
-      inr: 59.8765432,
       usd: 0.012,
+      eur: 0.01121,
+      gbp: 0.00967,
+      jpy: 1.37,
+      aud: 0.01761,
+      cad: 0.01576,
+      chf: 0.0114,
+      cny: 0.12,
+      sgd: 0.0167,
+      inr: 1,
     },
   };
+  
 
   // useEffect(() => {
   //   fetch(
